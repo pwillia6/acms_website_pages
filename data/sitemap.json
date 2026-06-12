@@ -6,7 +6,8 @@
     { "path": "music-camp.html", "title": "Music Camp" },
     { "path": "concerts.html", "title": "Concerts" },
     { "path": "library.html", "title": "Music Library" },
-    { "path": "join.html", "title": "Join / Self-Grader" }
+    { "path": "join.html", "title": "Join / Self-Grader" },
+    { "path": "contact.html", "title": "Contact Us" }
   ],
   "json_files": [
     "data/events-data.json",
