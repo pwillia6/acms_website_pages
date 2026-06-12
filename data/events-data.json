@@ -55,6 +55,14 @@
     },
     {
         "type": "playing-day",
+        "region": "sydney",
+        "date": "10 July",
+        "title": "Paul Williamson Playing Day",
+        "venue": "Barker College, Waitara",
+        "status": "Provisional"
+    },
+    {
+        "type": "playing-day",
         "region": "blue",
         "date": "1 August 2026",
         "title": "Blue Mountains Playing Day"

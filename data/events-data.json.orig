@@ -33,14 +33,6 @@
         "status": "Completed"
     },
     {
-        "type": "playing-day",
-        "region": "sydney",
-        "date": "10 June",
-        "title": "Sydney Playing Day",
-        "venue": "Barker College, Waitara",
-        "status": "Provisional"
-    },
-    {
         "type": "concert",
         "date": "14 June 2026",
         "title": "Kirribilli Concert",
