@@ -28,7 +28,7 @@ async function handleContactSubmit(e) {
     spinner.classList.remove('hidden');
 
     try {
-        const response = await fetch('/process_contact.php', {
+        const response = await fetch('process_contact.php', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -55,12 +55,12 @@ async function handleContactSubmit(e) {
 
     } catch (error) {
         console.error('Contact form submission error:', error);
-        showToast('Submission Failed', error.message, false);
-    } finally {
         // Re-enable button and hide spinner
         submitBtn.disabled = false;
         btnText.textContent = 'Send Message';
         spinner.classList.add('hidden');
+
+        showToast('Submission Failed', error.message, false);
     }
 }
 
