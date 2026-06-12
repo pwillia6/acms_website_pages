@@ -1,0 +1,17 @@
+<!-- Intro and schedule selector -->
+<div class="bg-gradient-to-r from-brandGreen-900 to-stone-900 p-8 sm:p-12 text-white rounded-2xl shadow-md flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+    <div class="space-y-4 max-w-2xl">
+        <span class="text-brandTeal-300 text-xs font-bold uppercase tracking-wider">Play Chamber Music</span>
+        <h2 class="text-3xl font-serif font-bold">National Playing Days &mdash; 2026</h2>
+        <p class="text-stone-300 text-sm leading-relaxed">
+            Join our organized playing sessions held in high-quality acoustic music suites. All sessions are professionally tutored. Choose your preferred region below to explore regional schedules, timetables, and guidelines.
+        </p>
+    </div>
+    <div class="flex flex-wrap gap-2">
+        <a href="playing-days.html" class="region-btn px-4 py-2 text-sm font-semibold rounded-lg <!--#if expr="$REQUEST_URI = /playing-days.html" -->bg-brandGreen-950 text-brandTeal-300 shadow-md<!--#else -->bg-stone-800 text-stone-200 hover:bg-stone-700<!--#endif -->">Sydney</a>
+        <a href="playing-days-canberra.html" class="region-btn px-4 py-2 text-sm font-semibold rounded-lg <!--#if expr="$REQUEST_URI = /playing-days-canberra.html" -->bg-brandGreen-950 text-brandTeal-300 shadow-md<!--#else -->bg-stone-800 text-stone-200 hover:bg-stone-700<!--#endif -->">Canberra</a>
+        <a href="playing-days-brisbane.html" class="region-btn px-4 py-2 text-sm font-semibold rounded-lg <!--#if expr="$REQUEST_URI = /playing-days-brisbane.html" -->bg-brandGreen-950 text-brandTeal-300 shadow-md<!--#else -->bg-stone-800 text-stone-200 hover:bg-stone-700<!--#endif -->">Brisbane</a>
+        <a href="playing-days-blue-mountains.html" class="region-btn px-4 py-2 text-sm font-semibold rounded-lg <!--#if expr="$REQUEST_URI = /playing-days-blue-mountains.html" -->bg-brandGreen-950 text-brandTeal-300 shadow-md<!--#else -->bg-stone-800 text-stone-200 hover:bg-stone-700<!--#endif -->">Blue Mountains</a>
+        <a href="playing-days-pianists-guide.html" class="region-btn px-4 py-2 text-sm font-semibold rounded-lg <!--#if expr="$REQUEST_URI = /playing-days-pianists-guide.html" -->bg-brandGreen-950 text-brandTeal-300 shadow-md<!--#else -->bg-stone-800 text-stone-200 hover:bg-stone-700<!--#endif -->"><i class="fa-solid fa-sheet-music mr-1"></i> Pianists Guide</a>
+    </div>
+</div>
